@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* for nav */
+nav {
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo
+{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+}
+
+nav label {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+}
+
+nav ul {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 70px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main_img
+{
+    width: 100%;
+    height: 500px;
+}
+
+.section1
+{
+    padding-top: 70px;
+}
+
+.img_text
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
