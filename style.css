@@ -59,14 +59,93 @@ nav ul li a {
     padding-top: 70px;
 }
 
-.img_text
+.welcome_img
 {
-    position: absolute;
-    top: 20%;
-    left: 30%;
+    width: 100%;
+    height: 250px;
+}
+
+.container
+{
+    padding-top: 70px;
+}
+
+.activity
+{
+    width: 90%;
+    height: 200px;
+}
+
+footer
+{
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+}
+
+.footer_text
+{
+    text-align: center;
     color: white;
-    background-color: midnightblue;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 35px;
+    position: relative;
+}
+
+.form_deg
+{
+    padding-top: 200px;
+}
+
+.login_form
+{
+    background-color: black;
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.label_deg
+{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title_deg
+{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.body_deg {
+    background: url('images/1e.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+}
+
+.body_deg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(3px); /* Adjust the blur level as needed */
+    z-index: -1; /* Ensure it stays behind the content */
 }
